@@ -15,7 +15,7 @@ services:
       - "3306:3306"
 
   flaskapp:
-    image: python-two-tier:latest
+    image: siddhantkudal/python-two-tier:latest
     container_name: flask
     networks:
       - t2
