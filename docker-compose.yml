@@ -19,8 +19,6 @@ services:
     container_name: flask
     networks:
       - t2
-    volumes:
-      - my_db:/var/lib/mysql
     environment:
       MYSQL_HOST: mysql
       MYSQL_USER: admin
