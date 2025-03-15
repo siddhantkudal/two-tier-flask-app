@@ -33,19 +33,8 @@ services:
     restart: always
 
 
-
-
-
 volumes:
   my_db:
 networks:
   t2:
 
-
-
-
-
-
-
-
-  flaskapp:
